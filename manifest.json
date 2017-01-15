@@ -1,0 +1,16 @@
+{
+  "name": "AntiLenta",
+  "description": "Redirects from Lenta to Meduza",
+  "version": "1.0",
+  "manifest_version": 2,
+  "permissions": [
+    "http://lenta.ru/*",
+    "https://lenta.ru/*",
+    "webRequest",
+    "webRequestBlocking",
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
