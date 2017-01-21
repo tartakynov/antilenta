@@ -6,6 +6,10 @@
   "permissions": [
     "http://lenta.ru/*",
     "https://lenta.ru/*",
+    "http://life.ru/*",
+    "https://life.ru/*",
+    "http://lifenews.ru/*",
+    "https://lifenews.ru/*",
     "webRequest",
     "webRequestBlocking",
     "tabs"
